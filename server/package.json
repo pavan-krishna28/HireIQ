@@ -1,0 +1,21 @@
+{
+  "name": "hireiq-server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-rate-limit": "*",
+    "jsonwebtoken": "*",
+    "multer": "*",
+    "pdf-parse": "*",
+    "sql.js": "*",
+    "uuid": "*"
+  }
+}

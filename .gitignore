@@ -1,0 +1,17 @@
+# secrets - never commit
+.env
+*.env
+!.env.example
+
+# dependencies / build output
+node_modules/
+client/dist/
+
+# candidate data and local database
+server/uploads/*
+!server/uploads/.gitkeep
+server/db/*.db
+
+# editor / tool settings
+.claude/
+.vscode/

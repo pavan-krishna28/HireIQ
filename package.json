@@ -1,0 +1,13 @@
+{
+  "name": "hireiq",
+  "version": "1.0.0",
+  "description": "AI-Powered Hiring Assessment Platform",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npx vite"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
